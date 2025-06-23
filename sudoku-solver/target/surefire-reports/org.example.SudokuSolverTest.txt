@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: org.example.SudokuSolverTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.067 s <<< FAILURE! - in org.example.SudokuSolverTest
+testEasyBoard  Time elapsed: 0.045 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.example.SudokuSolverTest.testEasyBoard(SudokuSolverTest.java:23)
+
+testDifficultBoard  Time elapsed: 0.008 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.example.SudokuSolverTest.testDifficultBoard(SudokuSolverTest.java:41)
+
