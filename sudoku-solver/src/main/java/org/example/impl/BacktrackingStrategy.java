@@ -25,7 +25,12 @@ public class BacktrackingStrategy implements SudokuStrategy {
         return instance;
     }
 
-
+     /**
+     * Time complexity : T(k)=O(9^k) , due to backtracking
+     * Space complexity: Space=O(81)=O(1)
+     * @param board
+     * @return
+     */
     @Override
     public boolean solve(int[][] board) {
         int m=board.length;
